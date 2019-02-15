@@ -1,0 +1,287 @@
+
+/*
+  Import the common theme.
+*/
+
+@import "./_shared/scss/theme.scss";
+
+html{
+  font-size: 80%;
+}
+
+body, .jumbotron{
+  background-color: rgb(255, 255, 255);
+}
+
+.carousel-caption > h5{
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+h2{
+  color: white;
+}
+
+.display-team{
+  margin-top: 100px;
+}
+
+.carousel-caption>p{
+  font-size: 2rem;
+  color: white;
+}
+
+.form-group{
+  color: rgb(39, 39, 39);
+}
+
+form{
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.blockquote, .mb-0{
+  font-size: 2rem;
+}
+
+#imagecontact{
+  margin-bottom: 40px;
+}
+
+img{
+  max-width: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+
+#imgR{
+  width: 150px;
+  margin-right: 5%;
+}
+
+.flexR{
+  display: flex;
+  padding: 5% 0% 5% 5%;
+  margin: 5% 0%;
+  background-color: #919AA1;
+  color: white;
+}
+
+.roundedImage{
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  width: 100%;
+}
+
+th{
+  font-size: 1.1rem;
+}
+
+td{
+  width: 20%;
+  font-size: 1.4rem;
+}
+
+.person{
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.display-3{
+  font-size: 2rem;
+}
+
+h1{
+  word-wrap: break-word;
+}
+.tablecontent{
+  margin-top: 5%;
+}
+.contact{
+  padding-top: 100px;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+a{
+  font-size: 1.2rem;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.carousel{
+  padding-top: 37px;
+  width: 100%;
+}
+p, .lead{
+  font-size: 1.2rem;
+  
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .flex{
+    background-color: #1A1A1A;
+  }
+
+
+  //PARALLAX
+  .MainContainer {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .ParallaxContainer {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    height: 100vh;
+    transform: translateZ(-0.4px) scale(2);
+    z-index: -1;
+    height: auto;
+    width: 100%;
+  }
+  
+  .ContentContainer {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  
+.table-dark{
+  border-top: 10px solid white;
+
+}
+
+.image-team{
+  width: 50%;
+  object-fit: cover;
+  margin: auto;
+  height: auto;
+  
+}
+
+.carousel{
+  padding-top: 0px;
+}
+
+@media screen and (min-width: 700px){
+  .ParallaxContainer {
+  transform: translateZ(-0.6px) scale(2);
+  }
+}
+
+
+  //========
+
+@media screen and (min-width: 992px){
+  html{
+    font-size: 100%;
+  }
+  .ParallaxContainer {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    height: 100vh;
+    transform: translateZ(-0.9px) scale(2);
+    z-index: -1;
+    height: auto;
+    width: 100%;
+  }
+ 
+
+  p{
+    font-size: 1.8rem;
+  }
+
+  .table-dark{
+    display: flex;
+    width: 100%;
+  }
+
+  .quote-team{
+    width: 70%;
+    padding: 5%;
+  }
+
+  .image-team{
+    width: 30%; 
+  }
+
+  .quote-team{
+    order:2;
+  }
+
+  #team1, #team3, #team5{
+    order: 3;
+  }
+
+  .person{
+    max-width: 100%;
+  }
+  .flex{
+    display: flex;
+    background-color: #1A1A1A;
+  }
+
+  .child, .child2{
+    width: 70%;
+    margin: 20px 0px;
+  }
+
+  .card{
+    width: 20%;
+    margin: 5%;
+    min-height: 100%;
+  }
+  .cardflex2{
+    order: 0;
+  }
+  .child2{
+    order: 1;
+    
+  }
+
+  .Contentblock{
+    margin: 0% 10%;
+    padding: 0% 5%;
+  }
+
+.cc2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+}
+
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+

@@ -1,0 +1,117 @@
+{# A common template to re-use accross all pages of the application #}
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="style.scss">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="_common.njk">Innovation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="_common.njk">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.njk">Team<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.njk">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--parallax-->
+    <div class="MainContainer">
+      <div class="ParallaxContainer">
+        <img class="parallaximage" src="_shared/img/teamspirit.jpg" alt="hands people team spirit image">
+      </div>
+      <div class="ContentContainer">
+        <div class="Content Contentblock">
+          <div class="jumbotron">
+            <h1 class="display-3 display-team">Our team</h1>
+            <p class="lead">Our team is the main force of our company. We stay and work together for a better world.</p>
+            <hr class="my-4">
+          </div>
+
+          <div class="allteam">
+            <div class="table-dark">
+              <div class="image-team" id="team1">
+                <img class="person" src="_shared/img/person1.jpg" alt="member staff picture">
+              </div>
+              <div class="quote-team">
+                <h3>"Managing team is all about communication and team spirit"</h3>
+                <h2>Nadine</h2>
+              </div>
+            </div>
+
+            <div class="table-dark">
+              <div class="image-team" id="team2">
+                <img class="person" src="_shared/img/person2.jpg" alt="member staff picture">
+              </div>
+              <div class="quote-team">
+                <h3>"Thinking about a problem is the only way to find a solution"</h3>
+                <h2>Christophe</h2>
+              </div>
+            </div>
+            
+            <div class="table-dark">
+              <div class="image-team" id="team3">
+                <img class="person" src="_shared/img/person3.jpg" alt="member staff picture">
+              </div>
+              <div class="quote-team">
+                <h3>"People who are happy are more productive, we are the most productive company"</h3>
+                <h2>Mathieu</h2>
+              </div>
+            </div>
+            <div class="table-dark">
+              <div class="image-team"  id="team4">
+                <img class="person" src="_shared/img/person4.png" alt="member staff picture">
+              </div>
+              <div class="quote-team">
+                <h3>"Knowledge is like to ride a bike, we never forget how to ride a bike"</h3>
+                <h2>Sam</h2>
+              </div>
+            </div>
+          </div>
+          <div class="table-dark">
+            <div class="image-team" id="team5">
+              <img class="person rogner" src="_shared/img/person5.jpeg" alt="member staff picture">
+            </div>
+            <div class="quote-team">
+              <h3>"I like flexibility in my job, it's like vacations all the year"</h3>
+              <h2>Thibaut</h2>
+            </div>
+          </div>
+          <div class="table-dark">
+            <div class="image-team" id="team6">
+              <img class="person rogner" src="_shared/img/person6.jpeg" alt="member staff picture">
+            </div>
+            <div class="quote-team">
+              <h3>"Smiling is like lighting up our minds"</h3>
+              <h2>Alexandre</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <img src="_shared/img/image5.jpg" alt="collaborators image ">
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
